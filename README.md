@@ -1,1 +1,258 @@
 # hotelskapodrska
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B2B Hotelska Podrška | Operativna i Digitalna Rešenja</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --gray: #64748b;
+            --danger-light: #fee2e2;
+            --danger-text: #b91c1c;
+            --success-light: #dcfce7;
+            --success-text: #15803d;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #334155;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+        }
+
+        /* Moderan Hero Sekcija */
+        header {
+            background: linear-gradient(135deg, var(--dark) 0%, #1e293b 100%);
+            color: white;
+            padding: 6rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header p {
+            font-size: 1.25rem;
+            margin-top: 1.5rem;
+            color: #94a3b8;
+            max-width: 700px;
+            margin: 1.5rem auto 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: -3rem auto 2rem;
+            padding: 0 1.5rem;
+            position: relative;
+        }
+
+        /* Autoritet sekcija */
+        .authority-badge {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-top: 4px solid var(--primary);
+            margin-bottom: 4rem;
+        }
+
+        .authority-badge p {
+            font-size: 1.1rem;
+            margin: 0;
+        }
+
+        .authority-badge strong {
+            color: var(--dark);
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.2rem;
+            color: var(--dark);
+            margin-bottom: 3rem;
+            font-weight: 700;
+        }
+
+        /* Grid sistem za kartice */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+
+        /* Moderan dizajn kartica */
+        .service-card {
+            background: white;
+            border-radius: 16px;
+            padding: 2.5rem 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            border: 1px solid #e2e8f0;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            border-color: var(--primary);
+        }
+
+        .service-card h3 {
+            margin: 0;
+            color: var(--dark);
+            font-size: 1.4rem;
+        }
+
+        /* Oznake za Problem i Rešenje */
+        .tag-problem, .tag-solution {
+            padding: 1rem;
+            border-radius: 8px;
+            font-size: 0.95rem;
+        }
+
+        .tag-problem {
+            background-color: var(--danger-light);
+            color: var(--danger-text);
+            border-left: 4px solid #ef4444;
+        }
+
+        .tag-solution {
+            background-color: var(--success-light);
+            color: var(--success-text);
+            border-left: 4px solid #22c55e;
+        }
+
+        .tag-title {
+            display: block;
+            font-weight: 700;
+            margin-bottom: 0.3rem;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.5px;
+        }
+
+        /* CTA Sekcija */
+        .cta-section {
+            text-align: center;
+            padding: 5rem 2rem;
+            background-color: var(--dark);
+            color: white;
+            margin-top: 4rem;
+        }
+
+        .btn {
+            background-color: var(--primary);
+            color: white;
+            text-decoration: none;
+            padding: 1.2rem 3rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            display: inline-block;
+            margin-top: 2rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.39);
+        }
+
+        .btn:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.23);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Eliminišite operativna uska grla u Vašem hotelu</h1>
+        <p>Pretvaramo manjak radne snage i zastarelu štampu u besprekorno iskustvo za Vaše goste. Konkretna operativna i digitalna rešenja za menadžment.</p>
+    </header>
+
+    <div class="container">
+        <div class="authority-badge">
+            <p><strong>Praktično iskustvo, a ne teorija:</strong> Kao dugogodišnji profesor turističke i ekonomske grupe predmeta, te koordinator stručne prakse, direktno sarađujem sa premium hotelima visoke kategorije (Viceroy, Radisson Collection). Ne nudim apstraktne savete, već Vam isporučujem tačno profilisan kadar i gotove digitalne alate po najvišim standardima hotelijerstva.</p>
+        </div>
+
+        <h2 class="section-title">Kako rešavamo Vaše ključne izazove?</h2>
+        
+        <div class="services-grid">
+            
+            <!-- Usluga 1: HR Mentorstvo -->
+            <div class="service-card">
+                <h3>Predselekcija i mentorstvo kadrova</h3>
+                <div class="tag-problem">
+                    <span class="tag-title">Problem</span>
+                    HR sektor nema vremena da u sezoni sprovodi bazičnu obuku i asimilaciju mladih praktikanata i sezonaca.
+                </div>
+                <div class="tag-solution">
+                    <span class="tag-title">Naše Rešenje</span>
+                    Preuzimam ulogu spoljnog mentora. Vršim predselekciju učenika završnih godina i sprovodim program pripreme pre nego što uopšte kroče u Vašu smenu. Dobijate radnike spremne za rad.
+                </div>
+            </div>
+
+            <!-- Usluga 2: Obuka Komunikacije -->
+            <div class="service-card">
+                <h3>In-house poslovna komunikacija</h3>
+                <div class="tag-problem">
+                    <span class="tag-title">Problem</span>
+                    Osoblje na recepciji i u F&B sektoru često neadekvatno reaguje na prigovore gostiju ili ne poznaje standarde poslovne korespondencije.
+                </div>
+                <div class="tag-solution">
+                    <span class="tag-title">Naše Rešenje</span>
+                    Kratki, visoko-intenzivni moduli obuke na Vašoj lokaciji. Fokusiramo se na asertivnu komunikaciju, rešavanje konfliktnih situacija i luksuzni bonton koji zahteva visoko hotelijerstvo.
+                </div>
+            </div>
+
+            <!-- Usluga 3: Digitalni Meni / Publikacije -->
+            <div class="service-card">
+                <h3>Zero-Print digitalna ponuda</h3>
+                <div class="tag-problem">
+                    <span class="tag-title">Problem</span>
+                    Konstantno štampanje novih sobnih informatora, jelovnika i cenovnika spa centra pri svakoj promeni cena predstavlja ogroman trošak.
+                </div>
+                <div class="tag-solution">
+                    <span class="tag-title">Naše Rešenje</span>
+                    Kreiranje vizuelno savršenih interaktivnih digitalnih magazina. Gost u sobi skenira samo jedan QR kod i lista kompletnu ponudu na svom telefonu. Ažuriranja vršimo daljinski i besplatno.
+                </div>
+            </div>
+
+            <!-- Usluga 4: Mape -->
+            <div class="service-card">
+                <h3>Interaktivne mape za goste</h3>
+                <div class="tag-problem">
+                    <span class="tag-title">Problem</span>
+                    Recepcija gubi sate dnevno objašnjavajući gostima gde se nalaze lokalne atrakcije, restorani i partnerske vinarije.
+                </div>
+                <div class="tag-solution">
+                    <span class="tag-title">Naše Rešenje</span>
+                    Programiranje potpuno prilagođene, dinamične web mape koja se učitava jednim klikom. Vaši gosti uvek imaju digitalnog vodiča u džepu, a recepcija je rasterećena.
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="cta-section">
+        <h2 style="margin: 0 0 1rem 0; font-size: 2.2rem;">Prestanite da gubite vreme na operativne zastoje</h2>
+        <p style="font-size: 1.2rem; margin-bottom: 2rem; color: #cbd5e1;">Zakažite kratak sastanak kako bismo analizirali Vaše trenutne izazove sa radnom snagom i digitalnom ponudom.</p>
+        <a href="mailto:vasa.email@adresa.com" class="btn">Zakažite konsultacije</a>
+    </div>
+
+</body>
+</html>
